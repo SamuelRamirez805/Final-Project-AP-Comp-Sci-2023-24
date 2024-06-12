@@ -1,35 +1,53 @@
-html {
+html, body {
   height: 100%;
   width: 100%;
+  font-family: "Copperplate", fantasy;
 }
 
-body {
-    background: linear-gradient(to top, #005c29, white, #cea83c);
-    background-attachment: fixed;
+footer {
+  background-color: #eee;
 }
 
-.screenshots{
-  max-width:100%;
-  max-height: 300px;
-  display: block;
-  margin: auto;
-  padding: 10px;
+#Header{
+  color: gold;
+  font-size:105%;
+  background-color: darkgreen;
 }
 
-#logo {
-  display: block;
-  margin: auto;
-  width: 15%;
+#ecs {
+background-color: navy;
+  color: gold;
+  
 }
 
-.olive_bg {
-  background-color: #3F4727;/*official olive color for SBHS*/
+#intro{
+background-color: darkgreen;
+  color:gold;
+  
+  font-family: "Copperplate", fantasy;
 }
 
-.gold_bg {
-  background-color: #EBA900;
+#art{
+background-color: darkred;
+  color: #999999;
 }
 
-p, h1, h2 {
-  text-align: center;
+#ap{
+background-color: black;
+  color:gold;
+  
+}
+#web{
+background-color: black;
+  color: silver;
+}
+#ios{
+background-color:lightblue;
+  color:#5c5c5c;
+  
+}
+#oth
+{
+  background-color: grey;
+  color:black;
 }
